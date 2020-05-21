@@ -1,0 +1,434 @@
+
+.header {
+  position: relative;
+	width: 100%;
+	padding-bottom: 150px;
+  padding-top: 30px;
+  background-image: 
+  		url(../image/bg/glass.png), 
+  		linear-gradient( 90deg, rgb( 255, 255, 255 ) 0%, rgb( 255, 249, 223 ) 0%, rgb( 255, 255, 255 ) 100%);
+  	background-repeat: no-repeat;
+  	background-position: center bottom, top left;
+ 	background-size: 100% auto;
+
+}
+@media (min-width: 700px) {
+  .header{
+  padding-top: 85px;
+  padding-bottom: 220px;
+
+  }
+}
+@media (min-width: 1140px) {
+  .header{
+    padding-top: 85px;
+  padding-bottom: 390px;
+
+  }
+}
+.cloud-1 {
+  background-image: url(../image/header/cloud1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 118px;
+  height: 77px;
+  position: absolute;
+  left: -15px;
+  top: 300px;
+}
+.cloud-2 {
+  background-image: url(../image/header/cloud-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 86px;
+  height: 49px;
+  position: absolute;
+  right: 0;
+  top: 263px;
+}
+@media (min-width: 700px) {
+  .cloud-2 {
+    right: -21px;    
+  }
+}
+
+.logo-wrapper {
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 60px;
+  margin-bottom: 35px;
+}
+
+@media (min-width: 1140px) {
+  .logo-wrapper  {
+  display: flex;
+  flex-direction: row;
+  -webkit-justify-content: space-between; 
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 25px;
+  position: relative;
+  padding-top: 0;
+  margin-top: 25px;
+    
+  }
+}
+
+.tagline {
+  font-size: 16px;
+  color: rgb( 40, 64, 95 );
+  line-height: 32px;
+  font-weight: 400;
+  height: 44px;
+  width: 276px;
+  box-shadow: 4px 7px 7px rgba(41, 36, 17, 0.06);
+  background-color: rgb( 255, 255, 255 );
+  padding-left: 37px;
+  padding-right: 37px;
+  padding-top: 13px;
+  border-radius: 24px;
+  position: absolute;
+  top: -75px;
+  left: -45px;
+}
+.tagline:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 57px;
+    border: 8px solid transparent;
+    border-top: 10px solid rgb( 255, 255, 255 );
+    transform: translateY(100%);
+    bottom: 0;
+}
+
+.tagline span {
+  font-weight: bold;
+}
+
+.logo {
+  margin-bottom: 25px;
+  position: relative;
+}
+@media (min-width: 1140px) {
+  .logo  {
+    margin-bottom: 0;
+  }
+}
+.promises-counter__icon {
+ margin-bottom: 8px;
+ text-align: center;
+}
+@media (min-width: 1140px) {
+  .promises-counter__icon  {
+    text-align: left;
+  }
+}
+
+.promises-counter__number {
+  font-size: 20px;
+  color: rgb( 13, 62, 96 );
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.promises-counter__desc  {
+  font-size: 16px;
+  font-family: "Liberation Sans";
+  color: rgb( 13, 62, 96 );
+  line-height: 1;
+}
+
+.header-content{
+ text-align: center;
+ max-width: 650px;
+ margin-right: auto; margin-left: auto;
+}
+
+.header-content__icon {
+ margin-bottom: 30px;
+}
+
+.header-content__invite {
+  font-size: 20px;
+  color: rgb( 235, 82, 56 );
+  line-height: 0.96;
+  font-weight: 300;
+  margin-bottom: 21px;
+
+}
+
+.header-content__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb( 13, 62, 96 );
+  line-height: 1;
+  margin-bottom: 36px;
+}
+@media (min-width: 1140px) {
+  .header-content__title  {
+    font-size: 38px;
+  }
+}
+
+ .header-names {
+ 	display: block;
+ 	margin-right: auto; margin-left: auto;
+ 	display: flex;
+ 	-webkit-justify-content: center;	
+ 	justify-content: center;
+ 	margin-bottom: 60px;
+  position: relative;
+  flex-direction: column;
+ }
+ @media (min-width: 1140px) {
+  .header-names  {
+    flex-direction: row;
+  }
+}
+
+ .header-names-left {
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 50px;
+
+ }
+
+ @media (min-width: 1140px) {
+  .header-names-left {
+  width: 50%;
+  text-align: right;
+  padding-right: 80px;
+  padding-top: 10px;
+
+  }
+}
+
+ .header-names-right {
+  padding-top: 50px;
+  text-align: center;
+  }
+
+  @media (min-width: 1140px) {
+  .header-names-right  {
+  text-align: left;
+  width: 50%;
+  padding-left: 80px;
+  padding-top: 10px;
+  }
+}
+
+.header-names__name {
+  font-size: 22px;
+  color: rgb( 235, 82, 56 );
+  font-weight: bold;
+  line-height: 1.818;
+}
+.header-names__mail {
+  font-size: 16px;
+  color: rgb( 13, 62, 96 );
+  font-weight: bold;
+  line-height: 2.25;
+}
+
+.headers-names-button {
+  width: 70px;
+  height: 70px;
+  border-radius: 60px;
+  background-color: #ed543a;
+  background-image: url(../image/icon/heart-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 45px 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1140px) {
+  .headers-names-button  {
+    top: 0;
+    transform: translate(-50%);
+    display: block;
+    width: 90px;
+    height: 90px;
+    background-size: 54px 46px;
+   
+  }
+}
+
+.headers-names-button::after {
+  content: "";
+  border-radius: 50%;
+  background-color: rgb( 255, 204, 54 );
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  background-image: url(../image/icon/plus-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (min-width: 1140px) {
+  .headers-names-button::after {
+    width: 37px;
+    height: 37px;
+  }
+}
+
+.scroll-bg {
+   max-width: 750px;
+   height: 122px;
+   background-color: #fff9df;
+   position: relative;
+   text-align: center;
+   padding: 0 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 15px; 
+   margin-left: 15px;
+}
+
+@media (min-width: 800px) {
+  .scroll-bg {
+    margin-right: auto; 
+   margin-left: auto;
+  }
+}
+
+@media (min-width: 1140px) {
+  .scroll-bg {
+    margin-right: auto; 
+   margin-left: auto;
+  }
+}
+
+
+.scroll-bg::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 57px;
+  height: 174px;
+  left: -23px;
+  top: -28px;
+  background-image: url(../image/header/left-scroll.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.scroll-bg::after {
+	 content: "";
+  position: absolute;
+  display: block;
+  width: 57px;
+  height: 174px;
+  right:  -23px;
+  top: -28px;
+  background-image: url(../image/header/right-scroll.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.scroll__desc {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb( 40, 64, 95 );
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.scroll__title  {
+  font-size: 18px;
+  font-family: "Liberation Sans";
+  color: rgb( 139, 137, 128 );
+  line-height: 1.333;
+  text-align: center;
+
+}
+.arrow-down::before {
+	content: "";
+	display: block;
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+    background-color: rgb( 205, 83, 60 );
+    background-image: url(../image/icon/arrow-down-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 13px;
+    top: 13px;
+	
+}
+.arrow-down {
+	bottom: 0;
+	left: 50%;
+	width: 81px;
+	height: 81px;
+	border-radius: 50%;
+  background-color: rgb( 205, 83, 60, 0.2 );
+  z-index: 1;
+  position: absolute;
+  transform: translate(-50%, 50%);
+}
+
+@media (min-width: 700px) {
+  .arrow-down {
+  transform: translate(-50%, 20%);
+  }
+
+@media (min-width: 1140px) {
+  .arrow-down {
+  transform: translate(-50%, 0);
+    
+  }
+}
+
+.scrollToTop-wrapper::before {
+  content: "";
+  display: block;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+    background-color: rgb( 205, 83, 60 );
+    background-image: url(../image/icon/arrow-down-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 13px;
+    top: 13px;
+  
+}
+.scrollToTop-wrapper {
+  width: 81px;
+  height: 81px;
+  border-radius: 50%;
+  background-color: rgb( 205, 83, 60, 0.2 );
+  z-index: 1;
+  position: relative;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.scrollToTop-wrapper:hover {
+  background-color: rgb( 205, 83, 60, 0.7 );
+  transition: all 0.2s ease-in;
+}
+.scrollToTop-wrapper-container {
+  width: 81px;
+  height: 81px;
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+  display: none;
+}
